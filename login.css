@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background-color: #eeeeee;
+    margin: 180px auto;
+    width: 500px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#head{
+    margin-left: 65px;
+    padding: 5px;
+}
+
+.heading{
+    margin: 10px;
+}
+
+.input{
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+}
+
+
+.btn{
+    margin-left: 0px;
+    padding: 8px;
+    width: 352px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #22313f;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: #24527a;
+}
+
+.input:hover{
+    transform: translateY(2px);
+    transition: 0.3s ease-in;
+}
+
+.heading a{
+    text-decoration: none;
+    color: green;
+}
+
+.heading a:hover{
+    text-decoration: underline;
+    color: #a696c8;
+}
+
+#forgot h5{
+    margin-left: 240px;
+    margin-top: 0%;
+    margin-bottom: 15px;
+}
+
+#forgot{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#forgot:focus{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
